@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/codahale/bcrypt-ruby.git
+  revision: 4268ac86c45fa4b313a1bb1b878f0b8bc85e9d0c
+  specs:
+    bcrypt (3.1.18)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -203,6 +209,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  bcrypt!
   bootsnap (>= 1.4.2)
   byebug
   capybara (>= 2.15)
@@ -212,7 +219,6 @@ DEPENDENCIES
   rails (~> 6.0.5)
   sass-rails (>= 6)
   selenium-webdriver
-  spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3 (~> 1.4)
   turbolinks (~> 5)
