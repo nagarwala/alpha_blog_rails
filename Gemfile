@@ -21,6 +21,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 gem 'bcrypt', git: 'https://github.com/codahale/bcrypt-ruby.git', :require => 'bcrypt'
+gem 'will_paginate', '~> 3.3'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -38,7 +39,7 @@ group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '~> 3.2'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  # gem 'spring'
+  gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
